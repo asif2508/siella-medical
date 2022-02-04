@@ -9,6 +9,9 @@ body{
 }
 
 /* nav bar */
+.notification-bar{
+    background-color: #00B2EC;
+}
 .quote-btn{
     background-color: #00B2EC;
     border: 1px solid #00B2EC;
@@ -74,6 +77,8 @@ body{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .contributors > li{
     margin: 0 3%;
@@ -108,9 +113,37 @@ input{
 .feature-section{
     margin-top: 50px;
     margin-bottom: 100px;
+    /* background-color: #F6F6F6; */
 }
 .title-style{
     text-align: center;
     font-weight: lighter;
     /* font-size: 18px; */
 }
+
+/* contact section  */
+.contact-para{
+    font-size: 12px;
+}
+.contacts{
+    font-size: 15px;
+}
+
+.contact-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/* .notification-bar{
+    position: relative;
+} */
+.note{
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 2px;
+    margin: 0;
+}
+/* .letter{
+    
+} */
