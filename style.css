@@ -5,7 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
 }
 
 /* nav bar */
@@ -103,4 +103,14 @@ input{
     margin-bottom: 100px;
 }
 
+/* feature section */
 
+.feature-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.title-style{
+    text-align: center;
+    font-weight: lighter;
+    /* font-size: 18px; */
+}
